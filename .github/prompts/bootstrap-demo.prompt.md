@@ -1,5 +1,5 @@
 ---
-description: "Generates 3 HVE-Core prompt files (research → plan → implement) that scaffold a 130-minute CIVIC GitHub Copilot demo from README.md alone"
+description: "Generates 3 HVE-Core prompt files (research → plan → implement) that scaffold a 130-minute OPS GitHub Copilot demo from README.md alone"
 ---
 
 # Generate Demo Scaffolding Prompts
