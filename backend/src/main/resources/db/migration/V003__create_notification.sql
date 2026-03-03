@@ -6,8 +6,8 @@
 
 -- Notification transactional table for email records
 CREATE TABLE notification (
-    id INT IDENTITY(1,1) PRIMARY KEY,
-    program_id INT NOT NULL,
+    id BIGINT IDENTITY(1,1) PRIMARY KEY,
+    program_id BIGINT NOT NULL,
     notification_type NVARCHAR(50) NOT NULL,
     recipient_email NVARCHAR(200) NOT NULL,
     subject NVARCHAR(500) NOT NULL,

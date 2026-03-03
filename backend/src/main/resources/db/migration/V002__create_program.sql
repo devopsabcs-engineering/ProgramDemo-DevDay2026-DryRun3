@@ -6,7 +6,7 @@
 
 -- Program transactional table with audit columns
 CREATE TABLE program (
-    id INT IDENTITY(1,1) PRIMARY KEY,
+    id BIGINT IDENTITY(1,1) PRIMARY KEY,
     program_name NVARCHAR(200) NOT NULL,
     program_description NVARCHAR(MAX) NOT NULL,
     program_type_id INT NOT NULL,
