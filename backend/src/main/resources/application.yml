@@ -1,0 +1,42 @@
+spring:
+  application:
+    name: civic-backend
+
+  # Database Configuration (H2 for local development)
+  datasource:
+    url: jdbc:h2:mem:civicdb;MODE=MSSQLServer;DATABASE_TO_LOWER=TRUE
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+
+  # H2 Console
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+  # JPA Configuration
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+  # Flyway Configuration
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+    baseline-on-migrate: true
+
+# Server Configuration
+server:
+  port: 8080
+
+# Logging
+logging:
+  level:
+    com.ontario.program: DEBUG
+    org.springframework.web: INFO
+    org.hibernate.SQL: DEBUG
