@@ -1,0 +1,65 @@
+{
+  "common": {
+    "ontarioLogo": "Ontario Logo",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "required": "Required",
+    "back": "Back",
+    "home": "Home"
+  },
+  "header": {
+    "title": "CIVIC",
+    "subtitle": "Citizens' Ideas for a Vibrant and Inclusive Community",
+    "skipToMain": "Skip to main content",
+    "language": "Français"
+  },
+  "footer": {
+    "copyright": "© King's Printer for Ontario, 2024",
+    "accessibility": "Accessibility",
+    "privacy": "Privacy",
+    "contactUs": "Contact us"
+  },
+  "submitProgram": {
+    "title": "Submit a Program",
+    "description": "Use this form to submit your program idea to the Ontario government.",
+    "programName": "Program Name",
+    "programNameHint": "Enter a clear, descriptive name for your program",
+    "programDescription": "Program Description",
+    "programDescriptionHint": "Describe your program idea in detail. Include objectives, target audience, and expected outcomes.",
+    "programType": "Program Type",
+    "programTypeHint": "Select the category that best fits your program",
+    "selectProgramType": "-- Select a program type --",
+    "submitterEmail": "Your Email Address",
+    "submitterEmailHint": "We'll send confirmation and updates to this address",
+    "submitButton": "Submit Program",
+    "submitting": "Submitting...",
+    "validation": {
+      "programNameRequired": "Program name is required",
+      "programNameMaxLength": "Program name must be 200 characters or less",
+      "programDescriptionRequired": "Program description is required",
+      "programTypeRequired": "Please select a program type",
+      "emailRequired": "Email address is required",
+      "emailInvalid": "Please enter a valid email address"
+    }
+  },
+  "confirmation": {
+    "title": "Program Submitted Successfully",
+    "message": "Thank you for your submission. Your program idea has been received.",
+    "referenceNumber": "Reference Number",
+    "whatHappensNext": "What happens next?",
+    "step1": "Our team will review your submission within 5-7 business days.",
+    "step2": "You will receive an email notification when your program is approved or if additional information is needed.",
+    "step3": "Approved programs will be considered for implementation in the next funding cycle.",
+    "submitAnother": "Submit Another Program",
+    "emailConfirmation": "A confirmation email has been sent to"
+  },
+  "programTypes": {
+    "1": "Community Development",
+    "2": "Environmental Sustainability",
+    "3": "Economic Growth",
+    "4": "Health and Wellness",
+    "5": "Education and Training"
+  }
+}
