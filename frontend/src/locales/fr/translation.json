@@ -1,0 +1,65 @@
+{
+  "common": {
+    "ontarioLogo": "Logo de l'Ontario",
+    "submit": "Soumettre",
+    "cancel": "Annuler",
+    "loading": "Chargement...",
+    "error": "Une erreur s'est produite",
+    "required": "Obligatoire",
+    "back": "Retour",
+    "home": "Accueil"
+  },
+  "header": {
+    "title": "CIVIC",
+    "subtitle": "Idées citoyennes pour une communauté dynamique et inclusive",
+    "skipToMain": "Passer au contenu principal",
+    "language": "English"
+  },
+  "footer": {
+    "copyright": "© Imprimeur du Roi pour l'Ontario, 2024",
+    "accessibility": "Accessibilité",
+    "privacy": "Confidentialité",
+    "contactUs": "Nous joindre"
+  },
+  "submitProgram": {
+    "title": "Soumettre un programme",
+    "description": "Utilisez ce formulaire pour soumettre votre idée de programme au gouvernement de l'Ontario.",
+    "programName": "Nom du programme",
+    "programNameHint": "Entrez un nom clair et descriptif pour votre programme",
+    "programDescription": "Description du programme",
+    "programDescriptionHint": "Décrivez votre idée de programme en détail. Incluez les objectifs, le public cible et les résultats attendus.",
+    "programType": "Type de programme",
+    "programTypeHint": "Sélectionnez la catégorie qui correspond le mieux à votre programme",
+    "selectProgramType": "-- Sélectionnez un type de programme --",
+    "submitterEmail": "Votre adresse courriel",
+    "submitterEmailHint": "Nous enverrons la confirmation et les mises à jour à cette adresse",
+    "submitButton": "Soumettre le programme",
+    "submitting": "Soumission en cours...",
+    "validation": {
+      "programNameRequired": "Le nom du programme est obligatoire",
+      "programNameMaxLength": "Le nom du programme doit comporter 200 caractères ou moins",
+      "programDescriptionRequired": "La description du programme est obligatoire",
+      "programTypeRequired": "Veuillez sélectionner un type de programme",
+      "emailRequired": "L'adresse courriel est obligatoire",
+      "emailInvalid": "Veuillez entrer une adresse courriel valide"
+    }
+  },
+  "confirmation": {
+    "title": "Programme soumis avec succès",
+    "message": "Merci pour votre soumission. Votre idée de programme a été reçue.",
+    "referenceNumber": "Numéro de référence",
+    "whatHappensNext": "Que se passe-t-il ensuite?",
+    "step1": "Notre équipe examinera votre soumission dans un délai de 5 à 7 jours ouvrables.",
+    "step2": "Vous recevrez une notification par courriel lorsque votre programme sera approuvé ou si des informations supplémentaires sont nécessaires.",
+    "step3": "Les programmes approuvés seront considérés pour mise en œuvre dans le prochain cycle de financement.",
+    "submitAnother": "Soumettre un autre programme",
+    "emailConfirmation": "Un courriel de confirmation a été envoyé à"
+  },
+  "programTypes": {
+    "1": "Développement communautaire",
+    "2": "Durabilité environnementale",
+    "3": "Croissance économique",
+    "4": "Santé et bien-être",
+    "5": "Éducation et formation"
+  }
+}
